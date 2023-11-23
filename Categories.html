@@ -2035,17 +2035,19 @@
                 $('.dis-view').removeClass('col-md-4');
                 $('.dis-view').removeClass('col-md-3');
                 $('.dis-view').addClass('col-md-6');
-            }
-            if(no == 3){
+            } else if(no == 3){
                 $('.dis-view').removeClass('col-md-6');
                 $('.dis-view').removeClass('col-md-3');
                 $('.dis-view').addClass('col-md-4');
-            }
-            if(no == 4){
+            } else if(no == 4){
                 $('.dis-view').removeClass('col-md-6');
                 $('.dis-view').removeClass('col-md-4');
                 $('.dis-view').addClass('col-md-3');
-            }            
+            } else {
+                $('.dis-view').removeClass('col-md-6');
+                $('.dis-view').removeClass('col-md-3');
+                $('.dis-view').addClass('col-md-4');
+            }           
         }
 
     </script>
