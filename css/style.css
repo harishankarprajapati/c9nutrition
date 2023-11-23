@@ -337,13 +337,18 @@ text-align: left !important;
     padding: 12px 0px 11px 0px;
     margin: auto;
 }
+.product-cart-icon:hover {
+    background-color: #ff0015;
+}
 
 .prodict-icons {
     padding: 3px 22px;
-    font-size: 30px;
+    font-size: 26px;
     columns: #fff;
 }
-
+.se-foter-prod{
+    padding-left: 70px;
+}
 .prodict-icons i {
     color: #fff;
 }
