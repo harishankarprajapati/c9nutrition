@@ -35,30 +35,73 @@
     padding: 7px !important;
   }
   .sec-her-col-padding h1 {
-    font-size: 90px;
+    font-size: 50px;
   }
   .sec-her-col-padding p {
-    font-size: 30px;
+    font-size: 25px;
   }
+  
+.sec-hero-bg {
+  padding-top: 55px;
+}
+.sec-btn-shop {
+  font-size: 22px;
+  padding: 12px 22px;
+}
+.c-prod-name {
+  font-size: 18px;
+}
+.c-prod-off {
+  font-size: 15px;
+}
+button.nav-link {
+  font-size: 15px;
+}
+.off-div {
+  width: 63%;
+}
   .big-img {
     width: 350px;
 }
 }
 @media only screen and (max-width:1090px){
+  .sec-none{
+    display: none;
+  }
   .big-img {
-    width: 287px;
-    height: 350px
+    width: 287px !important;
+    height: 420px
 }
 }
 @media only screen and (max-width:991px){
+  .sec-her-col-padding {
+    padding-top: 100px;
+    padding-left: 60px;
+}
+  .navbar-nav.justify-content-between.align-items-center.flex-grow-1{
+    align-items: flex-start !important;
+  }
   .mobile-logo {
     display: block !important;
 }
-a.navbar-brand {
-  width: 66% !important;
+.mobile-serch{
+  display: block !important;
+}.mobile-logo .sec-logo-img {
+  width: 35% !important;
 }
-.navbar-toggler-icon {
-  background-image: url(../images/togal.png) !important;
+a.navbar-brand {
+  width: 100% !important;
+  padding: 10px 0px;
+}
+.sec-space-left-right-nav {
+  display: flex;
+  align-items: center;
+}
+.tak-mob{
+  display: block !important;
+}
+.desktop-mode{
+  display: none !important;
 }
 button.navbar-toggler {
   background: #ffff;
@@ -66,19 +109,15 @@ button.navbar-toggler {
 .sec-menu-bgg {
   background-color: #000;
 }
-.sec-space-left-right-nav {
-  display: flex;
-  justify-content: space-around; 
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 3.5em;
+  height: 2.5em;
 }
 .sec-hero-bg {
   background-image: url(../images/bgg-home.png);
   margin-top: -389px;
   padding-top: 334px;
-}
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 4.5em;
-  height: 3.5em;
 }
 .sec-bt {
   display: flex;
@@ -88,7 +127,10 @@ button.navbar-toggler {
   display: none;
 }
 a.nav-link.px-4.text-light {
-  text-align: left;
+  color: #fff !important;
+  text-align: left !important;
+  padding: 10px 0px !important;
+  font-size: 20px !important;
 
 }
 .img-selection {
@@ -97,6 +139,11 @@ a.nav-link.px-4.text-light {
   top: 0;
   width: 100px;
   left: 374px;
+}
+.big-img {
+  width: 350px !important;
+  height: 510px;
+  margin-left: 0;
 }
 }
 
@@ -113,6 +160,9 @@ a.nav-link.px-4.text-light {
 
 
 @media only screen and (max-width:767px) {
+  .tak-mob{
+    display: block !important;
+  }
   .secproductcol {
     display: flex;
     flex-direction: column;
@@ -123,8 +173,9 @@ a.nav-link.px-4.text-light {
   .mobile-logo{
     display: block !important;
   }
-  .sec-logo-img {
+  .mobile-logo .sec-logo-img {
     padding-top: 8px;
+    width: 80% !important;
 }
 
   .big-img {
@@ -136,7 +187,7 @@ a.nav-link.px-4.text-light {
     color: #fff !important;
     text-align: left !important;
     padding: 10px 0px !important;
-    font-size: 20px;
+    font-size: 20px !important;
 }
 .navbar-nav.justify-content-between.align-items-center.flex-grow-1{
   align-items: flex-start !important;
@@ -175,9 +226,6 @@ div#nav-tab {
 }
 .range-p {
   font-size: 17px;
-}
-.sec-logo-img {
-  padding: 8px 0px;
 }
 .product-name {
   font-size: 16px;
@@ -236,7 +284,7 @@ ul.dropdown-menu.show label {
 .off-div {
   width: 52%;
 }
-.sectab-off {
+.catagey-main .sectab-off {
   font-size: 8px;
 }
 .catagey-main .product-name {
@@ -375,25 +423,11 @@ button.navbar-toggler {
 .desktop-mode{
   display: none !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
   .navbar-toggler-icon {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
 }
-  
-
   .sec-space-left-right-nav {
     display: flex;
 }
@@ -464,6 +498,11 @@ button.nav-link {
 }
 .sec-all-pro {
   padding-bottom: 30px;
+  padding-left: 20px;
+}
+.sec-all-pro img {
+  width: 80% !important;
+  margin: auto;
 }
 div#accordionFlushExample {
   padding-top: 30px;

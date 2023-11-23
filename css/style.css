@@ -61,7 +61,7 @@
 
 
 .sec-logo-img {
-    width: 80%;
+    width: 80% !important;
 }
 
 .navbar-toggler-icon {
@@ -290,7 +290,9 @@ div#nav-tab {
     background: #F5F5F5;
     padding: 10px 7px 0px 3px;
 }
-
+.tak-mob{
+    display: none;
+}
 .off-div {
     width: 43%;
 }
