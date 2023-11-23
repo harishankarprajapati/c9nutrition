@@ -113,6 +113,9 @@ a.nav-link.px-4.text-light {
 
 
 @media only screen and (max-width:767px) {
+  .c9 .owl-nav{
+    display: none;
+  }
   .mobile-logo{
     display: block !important;
   }

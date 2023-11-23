@@ -76,7 +76,7 @@
 a.nav-link.px-4.text-light {
     color: #000 !important;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px !important;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -237,7 +237,7 @@ button.nav-link {
     color: #000;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -439,6 +439,7 @@ text-align: left !important;
 
 .sec-img img {
     width: 70% !important;
+    margin: auto;
 }
 
 .Category-tab-name {
@@ -905,4 +906,24 @@ font-weight: 700;
 }
 .mobile-serch{
     display: none !important;
+}
+/* home */
+.c9 .owl-nav.disabled {
+    display: block;
+    margin-top: -217px;
+    margin-bottom: 188px;
+    font-size: 40px;
+}
+.c9 button.owl-next {
+    float: right;
+    background: red !important;
+    position: relative;
+    padding: 0px 10px 10px 10px !important;
+    color: #fff !important;
+}
+.c9 button.owl-prev {
+    background: red !important;
+    position: relative;
+    padding: 0px 10px 10px 10px !important;
+    color: #fff !important;
 }
