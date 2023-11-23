@@ -65,15 +65,16 @@ button.nav-link {
 }
 }
 @media only screen and (max-width:1090px){
-  .sec-none{
-    display: none;
-  }
+
   .big-img {
     width: 287px !important;
     height: 420px
 }
 }
 @media only screen and (max-width:991px){
+  .sec-none{
+    display: none;
+  }
   .sec-her-col-padding {
     padding-top: 100px;
     padding-left: 60px;
