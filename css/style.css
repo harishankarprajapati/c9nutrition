@@ -237,11 +237,12 @@ button.nav-link {
     color: #000;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    padding: 0px;
 }
 
 button.nav-link:hover {
@@ -898,7 +899,7 @@ font-weight: 700;
     display: none !important;
 }
 /* home */
-.c9 .owl-nav.disabled {
+.c9 .owl-nav {
     display: block;
     margin-top: -217px;
     margin-bottom: 188px;
@@ -906,22 +907,74 @@ font-weight: 700;
 }
 .c9 button.owl-next {
     float: right;
-    background: red !important;
+    background: #000 !important;
     position: relative;
     padding: 0px 10px 10px 10px !important;
     color: #fff !important;
 }
 .c9 button.owl-prev {
-    background: red !important;
+    background: #000 !important;
     position: relative;
     padding: 0px 10px 10px 10px !important;
     color: #fff !important;
 }
-/* catqgery */
-/* .catagery-slider .owl-nav.disabled {
-    display: block;
+.catagery-slider .owl-nav {
+    display: block !important;
     font-size: 40px;
+    margin-top: -160px;
+    margin-bottom: 140px;
+  
 }
-button.owl-next{
+
+.c9 button.owl-prev:hover , .c9 button.owl-next:hover{
+    background: #CC0D1D !important;
+}
+.catagery-slider button.owl-prev.disabled{
+    position: relative;
+    z-index: 99;
+}
+
+.catagery-slider button.owl-next.disabled{
     float: right;
-} */
+    position: relative;
+    z-index: 99;
+}
+.catagery-slider .owl-dots{
+    display: none;
+}
+.tabhome .owl-dots {
+    display: none;
+}
+.tabhome .item {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
+.endtab .nav-link{
+padding: 0px;
+}
+
+
+.endtab .owl-nav {
+    display: block;
+    margin-top: -227px;
+    margin-bottom: 188px;
+    font-size: 30px;
+}
+.endtab button.owl-next {
+    float: right;
+    background: #000 !important;
+    position: relative;
+    padding: 0px 10px 10px 10px !important;
+    color: #fff !important;
+}
+.endtab button.owl-prev {
+    background: #000 !important;
+    position: relative;
+    padding: 0px 10px 10px 10px !important;
+    color: #fff !important;
+}
+
+.endtab button.owl-prev:hover , .endtab button.owl-next:hover{
+    background: red !important;
+}
