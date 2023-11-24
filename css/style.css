@@ -288,10 +288,13 @@ div#nav-tab {
 .sec-all-pro {
     border: 1px solid #D9D9D9;
     background: #F5F5F5;
-    padding: 10px 7px 0px 3px;
+    padding: 10px 10px 0px 10px;
 }
 .tak-mob{
     display: none;
+}
+button#dropdownMenu2 img {
+    padding-right: 10px;
 }
 .off-div {
     width: 43%;
@@ -914,3 +917,11 @@ font-weight: 700;
     padding: 0px 10px 10px 10px !important;
     color: #fff !important;
 }
+/* catqgery */
+/* .catagery-slider .owl-nav.disabled {
+    display: block;
+    font-size: 40px;
+}
+button.owl-next{
+    float: right;
+} */
